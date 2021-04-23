@@ -5,7 +5,7 @@ const form = document.querySelector('form');
 // ------------------------------------------
 //  FETCH FUNCTIONS
 // ------------------------------------------
-
+fetch(https://dog.ceo/api/breeds/image/random)
 
 
 // ------------------------------------------
@@ -23,4 +23,3 @@ const form = document.querySelector('form');
 // ------------------------------------------
 //  POST DATA
 // ------------------------------------------
-
