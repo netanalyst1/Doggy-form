@@ -14,11 +14,11 @@ fetch('https://dog.ceo/api/breeds/image/random')
 //  HELPER FUNCTIONS
 // ------------------------------------------
 
-function generateImage() {
+function generateImage(data) {
   const html = `
     <img src='${data}' alt>
     <p>Click to view images of ${select.value}s</p>
-  `;
+   `;
   card.innerHTML = html;
 }
 
